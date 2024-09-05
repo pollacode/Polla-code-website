@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Platform</title>
+    <link rel="stylesheet" href="assets/css/learning.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .theme-light {
+            --bg-color: white;
+            --text-color: black;
+        }
+        .theme-dark {
+            --bg-color: #1a202c;
+            --text-color: white;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">Learning <span>Plus</span></div>
+        <i id="menu-icon" class="fas fa-bars"></i>
+        <nav class="navbar">
+            <a href="./index.html">Home</a>
+            <a href="#languages">Languages</a>
+            <a href="project.html">Project</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1 class="papa1">بەخێربێن بۆ فێربوون <span class="papa4">پلاتفۆرم</span></h1>
+            <h3 class="papa1">فێربوون هەنگاو بە هەنگاو</h3>
+            <div class="btn-group">
+                <a href="#languages" class="btn">دەست بە فێربوون بکە</a>
+                <a href="#about" class="btn">زیاتر بزانە</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/pollacode">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://t.me/codlagalpolla">
+                    <i class='bx bxl-telegram'></i>
+                </a>
+                <a href="https://www.instagram.com/p0llam/">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+                <a href="https://snapchat.com/t/88TMySYN">
+                    <i class="bx bxl-snapchat"></i>
+                </a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="assets/img/creative-brain.png" alt="Learning Image">
+        </div>
+    </section>
+
+    <!-- Languages Section -->
+    <section id="languages" class="languages">
+        <h2 class="heading">زمانەکانی بەرنامەسازی</h2>
+        <div class="language-container">
+            <div class="language-card">
+                <img src="assets/img/python.png" alt="Python" class="language-icon">
+                <h3>Python</h3>
+                <p class="papa1">فێری پایتۆن بە، زمانێکی گشتگیرە بۆ پەرەپێدانی وێب و شیکاری داتا و زۆر شتی تر.</p>
+                <a href="https://www.learnpython.org/" target="_blank" class="btn">Python</a>
+            </div>
+            <div class="language-card">
+                <img src="assets/img/js.png" alt="JavaScript" class="language-icon">
+                <h3>JavaScript</h3>
+                <p class="papa1">شارەزای جاڤاسکڕێپت، زمانی وێب، بۆ لاپەڕەکانی وێبی داینامیکی و کارلێککار.</p>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank" class="btn">JavaScript</a>
+            </div>
+            <div class="language-card">
+                <img src="assets/img/js.png" alt="Java" class="language-icon">
+                <h3>Java</h3>
+                <p class="papa1">دەست پێ بکە بە جاڤا، زمانێکی بەهێزە بۆ دروستکردنی بەرنامەی cross-platform.</p>
+                <a href="https://www.learnjavaonline.org/" target="_blank" class="btn">Java</a>
+            </div>
+            <div class="language-card">
+                <img src="assets/img/html-5.png" alt="HTML" class="language-icon">
+                <h3>HTML</h3>
+                <p class="papa1">فێری HTML ببە کە بڕبڕەی پشتی پەرەپێدانی وێبە بۆ دروستکردنی پێکهاتەی لاپەڕەکانی وێب.</p>
+                <a href="https://www.w3schools.com/html/" target="_blank" class="btn">HTML</a>
+            </div>
+            <div class="language-card">
+                <img src="assets/img/css-3.png" alt="CSS" class="language-icon">
+                <h3>CSS</h3>
+                <p class="papa1">وێب پەڕەکانت بە CSS ستایل بکە، کە زمانی دیزاینکردنی وێب پەڕەکانی سەرنجڕاکێشە.</p>
+                <a href="https://www.w3schools.com/css/" target="_blank" class="btn">CSS</a>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="assets/img/creative-brain.png" alt="About Image">
+        </div>
+        <div class="about-content">
+            <h2 class="papa1">دەربارەی ئەم پەڕە</h2>
+            <p class="papa1">ئەم پەڕەیە تایبەتە بە فێربوونی زمانەکانی پڕۆگرام سازی بۆ قوتابیان و بۆ فێرخوازانیش بەردەستە وە بەمزوانە لە زمانی ئینگلئزیەوە وەردەگێردرێت بۆ زمانی شیرینی کوردی</p>
+            <a href="#contact" class="btn">پەیوەندی بکە</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">پەیوەندیم <span class="papa4">پێوە بکەن</span></h2>
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" class="papa3" placeholder="ناوی تەواو">
+                    <input type="email" class="papa3" placeholder="ئیمەیڵ">
+                </div>
+                <div class="input-box">
+                    <input type="number" class="papa3" placeholder="ژمارەی تەلەفۆن">
+                    <input type="text" class="papa3" placeholder="بابەت">
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea name="" class="papa3" cols="30" rows="10" placeholder="پەیامەکەت"></textarea>
+                <input type="submit" value="نامە بنێرە" class="btn">
+            </div>
+        </form>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-icons">
+          <a href="https://github.com/pollacode">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="https://t.me/codlagalpolla">
+            <i class='bx bxl-telegram'></i>
+          </a>
+          <a href="https://www.instagram.com/p0llam/">
+            <i class="bx bxl-instagram-alt"></i>
+          </a>
+          <a href="https://snapchat.com/t/88TMySYN">
+            <i class="bx bxl-snapchat"></i>
+          </a>
+        </div>
+    
+        <ul class="list">
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+          <li>
+            <a href="#Services">Services</a>
+          </li>
+          <li>
+            <a href="#about">About Me</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+    
+        <p class="copyright">© PollaCode | هەموو مافەکان پارێزراوە</p>
+      </footer>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- JavaScript for navbar toggle -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
